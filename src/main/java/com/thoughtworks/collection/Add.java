@@ -83,7 +83,8 @@ public class Add {
         List<Integer> evenlist = arrayList.stream()
                 .filter(i->i%2==0).sorted().collect(Collectors.toList());
         List<Integer> oddlist = arrayList.stream()
-                .filter(i->i%2!=0).sorted(Comparator.reverseOrder()).collect(Collectors.toList());
+                .filter(i->i%2!=0)
+                .sorted(Comparator.reverseOrder()).collect(Collectors.toList());
         List<Integer> list = new ArrayList<>();
         list.addAll(evenlist);
         list.addAll(oddlist);
