@@ -1,9 +1,5 @@
 package com.thoughtworks.collection;
 
-import jdk.nashorn.internal.ir.LiteralNode;
-import org.mockito.internal.util.collections.ArrayUtils;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
